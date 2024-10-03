@@ -1,1 +1,7 @@
-
+branches:
+  - base: main
+    template: .github/PULL_REQUEST_TEMPLATE/main.md
+  - base: dev
+    template: .github/PULL_REQUEST_TEMPLATE/dev.md
+  - base: staging
+    template: .github/PULL_REQUEST_TEMPLATE/staging.md  
